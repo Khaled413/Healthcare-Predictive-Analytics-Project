@@ -1,0 +1,16 @@
+Healthcare-PredictiveProject/
+├── src/
+│   ├── data/
+│   │   ├── data_loader.py
+│   │   └── data_preprocessor.py
+│   ├── models/
+│   │   ├── model_trainer.py
+│   │   └── model_evaluator.py
+│   ├── visualization/
+│   │   └── data_visualizer.py
+│   └── deployment/
+│       └── model_api.py
+├── main.py
+├── config.py
+├── requirements.txt
+└── README.md
