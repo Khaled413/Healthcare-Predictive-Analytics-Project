@@ -3,7 +3,7 @@
 ## Overview
 A modern web application that uses machine learning to predict heart disease risk based on various health factors. The system provides personalized risk assessments and health recommendations.
 
-![image](https://github.com/user-attachments/assets/ff9d2c86-85ec-491f-b484-19ef1efc44ea)
+![image](https://github.com/user-attachments/assets/43033a27-3082-47f9-9c17-52949a1d71fd)
 
 ## Features
 - **User-friendly Interface**: Intuitive design for easy data entry and navigation
