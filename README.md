@@ -16,27 +16,27 @@ A modern web application that uses machine learning to predict heart disease ris
 ## Screenshots
 
 ### Home Page
-![image](https://github.com/user-attachments/assets/f9c91fb0-3315-47fc-9171-801db50c72ea)
+![image](https://github.com/user-attachments/assets/bd1b42bf-d936-4701-99bc-89c055e67662)
 *The landing page with system introduction and navigation*
 
 ### Prediction Form
-![image](https://github.com/user-attachments/assets/c8d6cb7f-6d76-415a-951c-7f823a2dd382)
+![image](https://github.com/user-attachments/assets/d6021863-3354-46e3-806d-2e699091b969)
 *The data entry form for health information*
 
 ### Results Page
 
 **Hight Risk**
 
-![image](https://github.com/user-attachments/assets/817e58ed-ed09-4d94-abe1-82770b59bfcc)
+![image](https://github.com/user-attachments/assets/927996cd-f762-41a0-a3a4-d9d65ce40371)
 
 **Low Risk**
 
-![image](https://github.com/user-attachments/assets/ca96e452-cc99-4e09-8cb8-c21d15bdebff)
+![image](https://github.com/user-attachments/assets/78798ba2-fb78-483c-ba76-06f9c82feadf)
 
 *Detailed prediction results with risk assessment and recommendations*
 
 ### About Page
-![image](https://github.com/user-attachments/assets/70f3ef26-de93-4dd9-bd86-1813d028527c)
+![image](https://github.com/user-attachments/assets/c33319a6-3465-4f82-be9d-5320289437c8)
 *Information about the system, how it works, and disclaimer*
 
 ## Health Factors Analyzed
