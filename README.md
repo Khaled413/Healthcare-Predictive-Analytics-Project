@@ -3,7 +3,7 @@
 ## Overview
 A modern web application that uses machine learning to predict heart disease risk based on various health factors. The system provides personalized risk assessments and health recommendations.
 
-![Homepage Screenshot](screenshots/homepage.png)
+![image](https://github.com/user-attachments/assets/ff9d2c86-85ec-491f-b484-19ef1efc44ea)
 
 ## Features
 - **User-friendly Interface**: Intuitive design for easy data entry and navigation
@@ -16,19 +16,27 @@ A modern web application that uses machine learning to predict heart disease ris
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.png)
+![image](https://github.com/user-attachments/assets/f9c91fb0-3315-47fc-9171-801db50c72ea)
 *The landing page with system introduction and navigation*
 
 ### Prediction Form
-![Prediction Form](screenshots/prediction-form.png)
+![image](https://github.com/user-attachments/assets/c8d6cb7f-6d76-415a-951c-7f823a2dd382)
 *The data entry form for health information*
 
 ### Results Page
-![Results Page](screenshots/results.png)
+
+**Hight Risk**
+
+![image](https://github.com/user-attachments/assets/817e58ed-ed09-4d94-abe1-82770b59bfcc)
+
+**Low Risk**
+
+![image](https://github.com/user-attachments/assets/ca96e452-cc99-4e09-8cb8-c21d15bdebff)
+
 *Detailed prediction results with risk assessment and recommendations*
 
 ### About Page
-![About Page](screenshots/about.png)
+![image](https://github.com/user-attachments/assets/70f3ef26-de93-4dd9-bd86-1813d028527c)
 *Information about the system, how it works, and disclaimer*
 
 ## Health Factors Analyzed
