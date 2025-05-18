@@ -1,6 +1,6 @@
 # Heart Disease Prediction system
 
-## Overvie
+## Overview
 A modern web application that uses machine learning to predict heart disease risk based on various health factors. The system provides personalized risk assessments and health recommendations.
 
 ![image](https://github.com/user-attachments/assets/43033a27-3082-47f9-9c17-52949a1d71fd)
