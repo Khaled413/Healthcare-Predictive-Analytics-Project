@@ -88,7 +88,7 @@ A modern web application that uses machine learning to predict heart disease ris
 
 ## 👥 Contributors
 
-Thanks to these wonderful people:
+Thanks to these wonderful Team:
 
 <a href="https://github.com/mostafataha12">
   <img src="https://github.com/mostafataha12.png" width="60px" alt="Mostafa Taha"/>
