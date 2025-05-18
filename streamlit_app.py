@@ -7,7 +7,6 @@ from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import OneHotEncoder
 
 # Feature names required for prediction
 feature_names = [
@@ -18,63 +17,8 @@ feature_names = [
     'Fasting Blood Sugar', 'CRP Level', 'Homocysteine Level'
 ]
 
-# Load or create a model
-@st.cache_resource
-def load_model():
-    try:
-        # Try to load the existing model
-        model_path = os.path.join(os.path.dirname(__file__), 'output/models/gradient_boosting_model.pkl')
-        preprocessor_path = os.path.join(os.path.dirname(__file__), 'output/models/preprocessor.pkl')
-        
-        model = joblib.load(model_path)
-        preprocessor = joblib.load(preprocessor_path)
-        print("Existing model loaded successfully!")
-        return model, preprocessor
-    except Exception as e:
-        print(f"Error loading existing model: {e}")
-        print("Creating a simple default model...")
-        
-        # Create directories if they don't exist
-        os.makedirs('output/models', exist_ok=True)
-        
-        # Create a simple preprocessor
-        numeric_features = ['Age', 'Blood Pressure', 'Cholesterol Level', 'BMI', 
-                            'Sleep Hours', 'Triglyceride Level', 'Fasting Blood Sugar', 
-                            'CRP Level', 'Homocysteine Level']
-        categorical_features = ['Gender', 'Exercise Habits', 'Smoking', 'Family Heart Disease', 
-                                'Diabetes', 'High Blood Pressure', 'Low HDL Cholesterol', 
-                                'High LDL Cholesterol', 'Alcohol Consumption', 
-                                'Stress Level', 'Sugar Consumption']
-        
-        # Create transformers
-        numeric_transformer = Pipeline(steps=[
-            ('scaler', StandardScaler())
-        ])
-        
-        categorical_transformer = Pipeline(steps=[
-            ('onehot', OneHotEncoder(handle_unknown='ignore'))
-        ])
-        
-        # Create the preprocessor
-        preprocessor = ColumnTransformer(
-            transformers=[
-                ('num', numeric_transformer, numeric_features),
-                ('cat', categorical_transformer, categorical_features)
-            ],
-            remainder='passthrough'
-        )
-        
-        # Create and train a simple model
-        model = GradientBoostingClassifier(random_state=42)
-        
-        # Save the new model and preprocessor
-        joblib.dump(model, model_path)
-        joblib.dump(preprocessor, preprocessor_path)
-        print("Default model created and saved successfully!")
-        return model, preprocessor
-
-# Load model
-model, preprocessor = load_model()
+# Create folders for models if they don't exist
+os.makedirs('output/models', exist_ok=True)
 
 # Set page config
 st.set_page_config(
@@ -258,7 +202,9 @@ with tab2:
     
     ## The Technology
     
-    The prediction model uses Gradient Boosting, a powerful machine learning algorithm that combines multiple decision trees to make accurate predictions. The model has been trained on data from various healthcare datasets.
+    The prediction model uses a simplified risk assessment approach to evaluate heart disease risk
+    based on established clinical risk factors. The prediction is based on scientific literature 
+    about heart disease risk factors.
     
     ## Disclaimer
     
