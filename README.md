@@ -90,14 +90,14 @@ A modern web application that uses machine learning to predict heart disease ris
 
 Thanks to these wonderful people:
 
-<a href="https://github.com/Khaled413">
-</a>
-
 <a href="https://github.com/mostafataha12">
+  <img src="https://github.com/mostafataha12.png" width="60px" alt="Mostafa Taha"/>
 </a>
 
 <a href="https://github.com/AliGaMal1">
+  <img src="https://github.com/AliGaMal1.png" width="60px" alt="Ali Gamal"/>
 </a>
+
 
 ## Important Disclaimer
 **This system is designed for educational and informational purposes only.** It is not intended to replace professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider regarding any medical conditions or concerns.
