@@ -1,5 +1,9 @@
 # Core dependencies
-streamlit>=1.30.0
+flask==2.3.3
+gunicorn==21.2.0
+werkzeug==2.3.7
+itsdangerous==2.1.2
+Jinja2==3.1.2
 
 # Data processing and machine learning
 numpy>=1.26.0
@@ -13,16 +17,15 @@ matplotlib>=3.7.2
 seaborn>=0.12.2
 plotly>=5.15.0
 
+# Web form handling
+flask-wtf==1.1.1
+WTForms==3.0.1
+
+# Testing
+pytest>=7.4.0
+pytest-flask>=1.2.0
+
 # Optional dependencies (commented out to fix compatibility issues)
 # xgboost>=1.7.6
 # imbalanced-learn>=0.10.1
 # scikit-plot>=0.3.7
-# flask==2.3.3
-# gunicorn==21.2.0
-# werkzeug==2.3.7
-# itsdangerous==2.1.2
-# Jinja2==3.1.2
-# flask-wtf>=1.1.1
-# WTForms>=3.0.1
-# pytest>=7.4.0
-# pytest-flask>=1.2.0
